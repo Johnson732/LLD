@@ -53,7 +53,7 @@ public final class ApiClient {
         public Builder connectTimeout(int connectTimeout) {
             this.connectTimeout = connectTimeout;
             return this;
-        }8
+        }
 
         public Builder readTimeout(int readTimeout) {
             this.readTimeout = readTimeout;
