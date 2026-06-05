@@ -1,0 +1,10 @@
+package com.lld.systemdesign.structural.composite;
+
+/**
+ * Common contract for both individual servers
+ * and groups of infrastructure resources.
+ */
+public interface InfrastructureComponent {
+
+    void showStatus();
+}
